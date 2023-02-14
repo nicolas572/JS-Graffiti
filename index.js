@@ -8,3 +8,13 @@ let pageHeader = document.querySelector('#page-header') ;
 
 //Step 3 write the styling code using DOM
 pageHeader.style.textAlign = 'left'
+//format: (variable name) .style.(CSS property in DOM) = '(value)'
+
+//*****
+//Exercise 2: Change the background color
+let body = document.querySelector('body')
+
+//background-color => backgroundColor
+body.style.backgroundColor = 'gold'
+
+
