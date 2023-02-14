@@ -17,4 +17,14 @@ let body = document.querySelector('body')
 //background-color => backgroundColor
 body.style.backgroundColor = 'gold'
 
+//*****
+//Exercise 3: querySelectorAll img border radius
+//classname => dog-image
+let dogImages = document.querySelectorAll('.dog-image')
+//querySelectorAll will store an array of elements
+//=> for loop
+for (let i = 0; i < dogImages.length; i++) {
+    //CSS property => border-radius -->
+    dogImages[i].style.borderRadius = '20px'
 
+}
